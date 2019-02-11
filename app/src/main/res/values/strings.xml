@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SampleTest</string>
+    <string name="pesan">Email dan password salah</string>
+    <string name="coba">Coba Lagi</string>
+    <string name="batal">Batal</string>
+    <string-array name="testarray">
+        <item>first</item>
+        <item>second</item>
+        <item>third</item>
+        <item>fourth</item>
+        <item>fifth</item>
+    </string-array>
+</resources>
