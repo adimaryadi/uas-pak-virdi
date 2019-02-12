@@ -3,13 +3,9 @@ package com.example.adimaryadi.sampletest;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class DaftarMahasiswa extends AppCompatActivity {
 
@@ -31,11 +27,11 @@ public class DaftarMahasiswa extends AppCompatActivity {
             }
         });
 
-        nama        =  (EditText) findViewById(R.id.nama);
+        nama        =  (EditText) findViewById(R.id.nama0);
         email       =  (EditText) findViewById(R.id.email);
         password    =  (EditText) findViewById(R.id.password);
         no_telepon  =  (EditText) findViewById(R.id.telepon);
-        alamat      =  (EditText) findViewById(R.id.alamat);
+        alamat      =  (EditText) findViewById(R.id.alamat4);
 
         final Button simpan     =   findViewById(R.id.simpan);
         simpan.setOnClickListener(new View.OnClickListener() {

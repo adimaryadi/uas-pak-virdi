@@ -13,7 +13,7 @@
     tools:context=".DaftarMahasiswa">
 
     <EditText
-        android:id="@+id/nama"
+        android:id="@+id/nama0"
         android:layout_width="323dp"
         android:layout_height="47dp"
         android:layout_marginEnd="8dp"
@@ -60,7 +60,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.484"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/nama" />
+        app:layout_constraintTop_toBottomOf="@+id/nama0" />
 
     <EditText
         android:id="@+id/password"
@@ -97,7 +97,7 @@
         app:layout_constraintTop_toBottomOf="@+id/password" />
 
     <EditText
-        android:id="@+id/alamat"
+        android:id="@+id/alamat4"
         android:layout_width="319dp"
         android:layout_height="110dp"
         android:layout_marginEnd="8dp"
@@ -126,7 +126,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.139"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/alamat" />
+        app:layout_constraintTop_toBottomOf="@+id/alamat4" />
 
     <Button
         android:id="@+id/kembali"
@@ -141,7 +141,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.547"
         app:layout_constraintStart_toEndOf="@+id/simpan"
-        app:layout_constraintTop_toBottomOf="@+id/alamat" />
+        app:layout_constraintTop_toBottomOf="@+id/alamat4" />
 
 </android.support.constraint.ConstraintLayout>
 </ScrollView>
