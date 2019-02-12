@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">SampleTest</string>
+    <string name="app_name">Pendaftaran Mahasiswa</string>
     <string name="pesan">Email dan password salah</string>
     <string name="coba">Coba Lagi</string>
     <string name="batal">Batal</string>
